@@ -1,0 +1,86 @@
+.whole-wrapper-register {
+    padding-top: 100px;
+}
+
+.wrap-signup-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-sizing: border-box;
+    width: 500px;
+    margin: 0 auto;
+    border-radius: 10px;
+    background-color: #F8F6FD;
+    box-shadow: 4px 8px 20px #929394a6; 
+    margin-top: 50px;
+}
+
+.signup-page {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.signup-name {
+    font-size: 23px;
+    margin: 40px;
+    text-align: center;
+    color: rgb(0, 108, 224); 
+}
+
+.input-signup {
+    padding: 16px 77px 16px 10px;
+    width: 70%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    font-size: 16px;
+    box-shadow: 4px 8px 20px #929394a6; 
+    border: none;
+}
+
+.checkbox-signup {
+    display: flex;
+    align-items: center;
+    gap: 11px;
+    margin: 20px 0;
+    margin-left: 6px;
+}
+
+.checkbox-signup input[type="checkbox"]{
+    width: 20px;
+    height: 20px;
+}
+
+.signup-btn {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    text-decoration: none;
+    font-size: 21px;
+    padding: 10px 32px;
+    border-radius: 10px;
+    border: 1px solid;
+    background-color: rgb(0, 108, 224);
+    color: #fff;
+    transition: all .4s ease-in-out;
+}
+
+.sign-btn {
+    margin-bottom: 40px;
+}
+
+.signup-btn:hover {
+    background: rgba(6, 47, 91, 0.678);
+}
+
+
+
+
+/* Responsive */
+
+@media screen and (max-width: 768px) {
+    .wrap-signup-page {
+        width: 70%;
+    }
+}

@@ -1,0 +1,142 @@
+/* .container {
+    width: 1200px;
+    margin: 0 auto;
+} */
+
+.wrapper-form-sec {
+    padding: 215px 0;
+    padding-top: 120px;
+    position: relative;
+    background-image: linear-gradient(rgb(13 7 70), rgb(17, 76, 164));
+    width: 100%;
+    height: 259px;
+    background-size: cover;
+
+}
+
+.calculate {
+    font-size: 22px;
+}
+
+form {
+    text-align: center;
+    line-height: 2.5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 385px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+}
+
+ .total {
+    margin: 0;
+} 
+
+.wrap-form {
+    width: fit-content;
+    box-shadow: 1px 5px 15px rgba(128, 128, 128, 0.312);
+    display: flex;
+    margin: 0 auto;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 25px;
+    background-color: #fff;
+    position: absolute;
+    bottom: -105%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 610px;
+    width: 29%;
+}
+
+
+
+.submit-btn {
+    border: 1px solid #e9ebed;
+    width: fit-content;
+    display: flex;
+    margin: 0 auto;
+    padding: 10px 35px;
+    border-radius: 20px;
+    color: rgb(24 24 95 / 80%);
+    cursor: pointer;
+    text-decoration: none;
+    transition: .5s ease-in-out;
+    background-color: #e9ebed;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.submit-btn:hover {
+    color: #fff;
+    background-color: rgba(48, 22, 22, 0.626);
+    transition: .5s ease-in-out;
+}
+
+.input-wrp input {
+    width: 100%;
+    padding: 9px 5px;
+    border: 1px solid rgba(113, 113, 14, 0.392);
+    border-radius: 11px;
+    flex: .7;
+}
+
+.input-wrp {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    column-gap: 25px;
+    width: 100%;
+}
+
+.input-wrp:nth-child(1) {
+    margin-bottom: 10px;
+}
+
+.input-wrp label {
+    width: 100%;
+    flex: .3;
+}
+
+@media screen and (max-width: 1024px) {
+    form {
+        width: 80%;
+    }
+
+    .form {
+        width: 312px;
+    }
+
+    .input-wrp input {
+        padding: 7px 2px;
+        border-radius: 8px;
+    }
+
+    .wrap-form {
+        height: 654px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .form {
+        width: 312px;
+    }
+
+    .wrap-form {
+        bottom: -109%;
+        height: 665px;
+    }
+
+    .input-wrp input {
+        padding: 7px 2px;
+        border-radius: 8px;
+    }
+
+}

@@ -1,0 +1,120 @@
+.whole-wrapper-signin {
+    padding-top: 100px;
+}
+
+.wrap-login-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-sizing: border-box;
+    width: 500px;
+    margin: 0 auto;
+    border-radius: 10px;
+    background-color: #F8F6FD;
+    box-shadow: 4px 8px 20px #929394a6; 
+    margin-top: 50px;
+}
+
+.login-page {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.login-name {
+    font-size: 23px;
+    margin: 40px;
+    text-align: center;
+    color: rgb(0, 108, 224); 
+}
+
+.forget-password {
+    color: rgb(0, 108, 224); 
+    margin-left: 6px;
+}
+
+.username-login {
+    padding: 16px 77px 16px 10px;
+    width: 70%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    font-size: 16px;
+    box-shadow: 4px 8px 20px #929394a6; 
+    border: none;
+}
+
+.username-pass {
+    box-shadow: 4px 8px 20px #929394a6;
+    padding: 16px 77px 16px 10px;
+    width: 70%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    border: none;
+
+}
+
+.checkbox-login {
+    display: flex;
+    align-items: center;
+    gap: 11px;
+    margin: 20px 0;
+    margin-left: 6px;
+}
+
+.checkbox-login input[type="checkbox"]{
+    width: 20px;
+    height: 20px;
+}
+
+.login-btn {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    text-decoration: none;
+    font-size: 21px;
+    padding: 10px 32px;
+    border-radius: 10px;
+    border: 1px solid;
+    background-color: rgb(0, 108, 224);
+    color: #fff;
+    transition: all .4s ease-in-out;
+}
+
+.login-btn:hover {
+    background: rgba(6, 47, 91, 0.678);
+}
+
+.sign-up-connect {
+    margin: 24px 0;
+    box-shadow: 4px 8px 20px #929394a6;
+    padding: 16px 77px 16px 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: #fff;
+    margin-bottom: 60px;
+}
+
+.link-sign-up {
+    text-decoration: none;
+    margin-left: 4px;
+}
+
+.active {
+  background: rgb(0, 108, 224);
+}
+
+
+
+
+
+
+/* Responsive */
+
+@media screen and (max-width: 768px) {
+    .wrap-login-page {
+        width: 70%;
+    }
+
+}

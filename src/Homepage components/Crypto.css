@@ -1,0 +1,185 @@
+/* crypto section */
+
+.wrap-crypto-sec {
+    display: flex;
+    justify-content: space-around;
+}
+
+.main-heading-crypto {
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+    margin: 40px 0;
+}
+
+.first-crypto-crd,
+.second-crypto-crd,
+.three-crypto-crd {
+    box-sizing: border-box;
+    border: 1px solid;
+    text-align: center;
+    border-radius: 20px;
+    width: 24%;
+    border: none;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    box-shadow: 4px 8px 20px #929394a6;
+    color: rgb(67, 67, 65);
+}
+
+.img-crypto-wrap {
+    height: 160px;
+    text-align: left;
+    padding: 10px;
+}
+
+.img-crypto {
+    display: flex;
+    align-items: flex-start;
+    column-gap: 15px;
+    margin: 10px 0;
+}
+
+.heading-filling-cryp {
+    font-size: 19px;
+    font-family: 'Poppins';
+    font-weight: 600;
+    height: 60px;
+    color: black;
+    padding: 20px;
+    background-color: rgb(240, 245, 250);
+    border-radius: 10px 10px 0 0;
+}
+
+.img-crypto img {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+
+}
+
+.capital-gain-cryp,
+.cryp-interest,
+.cryp-dividend {
+    font-size: 13px;
+    font-weight: 600;
+
+}
+
+.amt-cryp {
+    font-size: 44px;
+    margin-bottom: 30px;
+    font-weight: 500;
+}
+
+.second-crypto-crd-slide-two,
+.three-crypto-crd-slide-three {
+    box-sizing: border-box;
+    border: 1px solid;
+    text-align: center;
+    border-radius: 20px;
+    width: 24%;
+    border: none;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    box-shadow: 4px 8px 20px #929394a6;
+    color: rgb(67, 67, 65);
+
+}
+
+.slide-two-crp,
+.slide-three-crp {
+    display: none;
+}
+
+/* responsive of Crypto page */
+
+@media screen and (max-width: 1024px) {
+
+    .first-crypto-crd {
+        width: 36%;
+    }
+
+    .img-crypto-wrap {
+        height: 130px;
+    }
+
+    .second-crypto-crd-slide-two,
+    .three-crypto-crd-slide-three {
+        width: 36%;
+    }
+
+    .slide-two-crp,
+    .slide-three-crp {
+        display: block;
+    }
+
+    .second-crypto-crd,
+    .three-crypto-crd {
+        display: none;
+    }
+
+    .swiper.swiper-initialized.swiper-horizontal.mySwiper.swiper-backface-hidden {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+
+    .first-crypto-crd {
+        width: 60%;
+    }
+
+    .second-crypto-crd-slide-two,
+    .three-crypto-crd-slide-three {
+        width: 60%;
+
+    }
+
+    .slide-two-crp,
+    .slide-three-crp {
+        display: block;
+    }
+
+    .second-crypto-crd,
+    .three-crypto-crd {
+        display: none;
+    }
+
+    .swiper.swiper-initialized.swiper-horizontal.mySwiper.swiper-backface-hidden {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    
+    .first-crypto-crd {
+        width: 70%;
+    }
+
+    .second-crypto-crd-slide-two,
+    .three-crypto-crd-slide-three {
+        width: 70%;
+
+    }
+
+}
+
+@media screen and (max-width: 426px) {
+    .first-crypto-crd {
+        width: 85%;
+    }
+
+    .second-crypto-crd-slide-two,
+    .three-crypto-crd-slide-three {
+        width: 85%;
+
+    }
+}
+
+/* crypto section ends here */

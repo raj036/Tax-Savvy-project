@@ -1,0 +1,152 @@
+.heading-name-employed {
+  font-size: 35px;
+  font-weight: 700;
+  text-align: center;
+  margin: 40px 0;
+  padding-top: 40px;
+}
+
+/* swipper slider css  */
+
+.wrapper-slider {
+  padding-top: 50px;
+
+}
+
+.salary-rnt-ep {
+  height: 78px;
+  font-size: 16px;
+  font-weight: 700;
+  color: #11489E;
+  background-color: rgb(240, 245, 250);
+  border-radius: 10px 10px 0 0;
+  padding: 20px;
+}
+
+.slide-one {
+  padding: 40px 60px;
+  background-color: var(--theme-clr);
+}
+
+.wrap-card-two-ep,
+.wrap-card-three-ep,
+.wrap-card-four-ep {
+  box-sizing: border-box;
+  text-align: center;
+  border-radius: 11px;
+  width: 21%;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  box-shadow: 4px 8px 20px #929394a6;
+  color: rgb(67, 67, 65);
+
+}
+
+.wrap-card-two-slide-two-ep,
+.wrap-card-two-slide-three-ep {
+  box-sizing: border-box;
+  text-align: center;
+  border-radius: 11px;
+  width: 21%;
+  box-shadow: 4px 8px 20px #929394a6;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  color: rgb(67, 67, 65);
+
+}
+
+.img-txt-comb-ep {
+  height: 240px;
+  text-align: left;
+  padding: 10px;
+}
+
+/* swipper slider css end */
+
+
+.slide-two-ep,
+.slide-three-ep {
+  display: none;
+}
+
+/* responsive of employed professional  */
+
+@media screen and (max-width: 1024px) {
+
+  .wrap-card-three-ep,
+  .wrap-card-four-ep {
+    display: none;
+  }
+
+  .wrap-card-two-slide-two-ep,
+  .wrap-card-two-slide-three-ep {
+    width: 36%;
+  }
+
+  .wrap-card-two-ep {
+    width: 36%;
+  }
+
+  .slide-two-ep,
+  .slide-three-ep {
+    display: block;
+  }
+
+  .swiper.swiper-initialized.swiper-horizontal.mySwiper.swiper-backface-hidden {
+    width: 100%;
+  }
+
+
+}
+
+@media screen and (max-width: 768px) {
+
+  .wrap-card-three-ep,
+  .wrap-card-four-ep {
+    display: none;
+  }
+
+  .wrap-card-two-slide-two-ep,
+  .wrap-card-two-slide-three-ep {
+    width: 50%;
+  }
+
+  .wrap-card-two-ep {
+    width: 50%;
+  }
+
+  .slide-two-ep,
+  .slide-three-ep {
+    display: block;
+  }
+
+  .swiper.swiper-initialized.swiper-horizontal.mySwiper.swiper-backface-hidden {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+
+  .wrap-card-two-slide-two-ep,
+  .wrap-card-two-slide-three-ep {
+    width: 60%;
+  }
+
+  .wrap-card-two-ep {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 426px) {
+
+  .wrap-card-two-slide-two-ep,
+  .wrap-card-two-slide-three-ep {
+    width: 85%;
+  }
+
+  .wrap-card-two-ep {
+    width: 85%;
+  }
+}
