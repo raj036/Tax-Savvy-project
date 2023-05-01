@@ -15,10 +15,10 @@ function Profile() {
             <div className="profile-page-sec">
                 <div className="profile-page-wrap">
                     <div className="face-img">
-                        <img src={faceIcn} alt="" />
+                        <img src={faceIcn} alt="faceicn" />
                     </div>
                     <div className="cam-img">
-                        <img src={camIcn} alt="" />
+                        <img src={camIcn} alt="camicn" />
                     </div>
                     <h3 className="person-name">Raj Trivedi</h3>
                     <div className="save-chng"><Link href="#" className="sv-chng-btn">Save Changes</Link></div>

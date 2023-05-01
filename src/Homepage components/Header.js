@@ -7,7 +7,11 @@ import { TfiClose } from "react-icons/tfi";
 
 function Header() {
 
+
+    // hamburger 
     const [curr, setCurr] = useState(false);
+
+    // to show active on that page
     const [activeMenu, setActiveMenu] = useState("")
 
     const toggle = () => {

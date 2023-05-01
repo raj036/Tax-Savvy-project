@@ -5,13 +5,16 @@ import Register from "./pages/Register";
 import Sign from "./pages/Sign";
 import "./App.css"
 import {
-  BrowserRouter,
+  // BrowserRouter,
   Routes,
   Route,
-  Link,
+  // Link,
 } from "react-router-dom";
 import RequestCall from "./pages/RequestCall";
+import Contact from "./Profilepage/Contact";
 import Profile from "./Profilepage/Profile";
+import AboutUs from "./Profilepage/AboutUs";
+import ProfileDetails from "./Profilepage/ProfileDetails";
 
 
 function App() {
@@ -19,11 +22,6 @@ function App() {
 
   return (
     <div className="main-container">
-      {/* 
-      <div className="topnav">
-        <Link className=""></Link>
-      </div> */}
-
 
       <Header />
 
@@ -32,6 +30,10 @@ function App() {
         <Route path="/request" element={<RequestCall />} />
         <Route path="/register" element={<Register />} />
         <Route path="/sign" element={<Sign />} />
+        <Route path="/profile" element={<Profile />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/aboutus" element={<AboutUs />} />
+        <Route path="/profiledetails" element={<ProfileDetails />} />
       </Routes>
 
       <Footer />
